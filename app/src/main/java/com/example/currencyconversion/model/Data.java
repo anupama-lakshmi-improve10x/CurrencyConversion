@@ -4,72 +4,70 @@ import com.google.gson.annotations.SerializedName;
 
 public class Data {
 
-@SerializedName("AUD")
+    @SerializedName("AUD")
     private Float australianDollar;
-@SerializedName("BGN")
+    @SerializedName("BGN")
     private Float bulgarianLev;
-@SerializedName("BRL")
+    @SerializedName("BRL")
     private Float brazilianReal;
-@SerializedName("CAD")
+    @SerializedName("CAD")
     private Float canadianDollar;
-@SerializedName("CHF")
+    @SerializedName("CHF")
     private Float swissFranc;
-@SerializedName("CNY")
+    @SerializedName("CNY")
     private Float chineseYuan;
-@SerializedName("CZK")
+    @SerializedName("CZK")
     private Float czechKoruna;
-@SerializedName("DKK")
+    @SerializedName("DKK")
     private Float danishKrone;
-@SerializedName("EUR")
+    @SerializedName("EUR")
     private Float europeanEURO;
-@SerializedName("GBP")
+    @SerializedName("GBP")
     private Float greatBritishPound;
-@SerializedName("HKD")
+    @SerializedName("HKD")
     private Float hongKongDollar;
-@SerializedName("HRK")
+    @SerializedName("HRK")
     private Float croatianKuna;
-@SerializedName("HUF")
+    @SerializedName("HUF")
     private Float hungarianForint;
-@SerializedName("IDR")
+    @SerializedName("IDR")
     private Float indonesianRupiah;
-@SerializedName("ILS")
-    private Float israeliNewSheqel ;
-@SerializedName("INR")
+    @SerializedName("ILS")
+    private Float israeliNewSheqel;
+    @SerializedName("INR")
     private Float indianRupee;
-@SerializedName("ISK")
+    @SerializedName("ISK")
     private Float icelandicKronur;
-@SerializedName("JPY")
+    @SerializedName("JPY")
     private Float japaneseYen;
-@SerializedName("KRW")
+    @SerializedName("KRW")
     private Float southKoreanWon;
-@SerializedName("MXN")
+    @SerializedName("MXN")
     private Float mexicanPesos;
-@SerializedName("MYR")
+    @SerializedName("MYR")
     private Float malaysianRinggits;
-@SerializedName("NOK")
+    @SerializedName("NOK")
     private Float NorwegianKroner;
-@SerializedName("NZD")
+    @SerializedName("NZD")
     private Float newZealandDollar;
-@SerializedName("PHP")
+    @SerializedName("PHP")
     private Float philippinePeso;
-@SerializedName("PLN")
+    @SerializedName("PLN")
     private Float polishZloty;
-@SerializedName("RON")
+    @SerializedName("RON")
     private Float romanianLeu;
-@SerializedName("RUB")
+    @SerializedName("RUB")
     private Float russianRubles;
-@SerializedName("SEK")
+    @SerializedName("SEK")
     private Float swedishKrona;
-@SerializedName("SGD")
+    @SerializedName("SGD")
     private Float singaporeDollar;
-@SerializedName("THB")
+    @SerializedName("THB")
     private Float thaiBaht;
-@SerializedName("TRY")
+    @SerializedName("TRY")
     private Float turkishlira;
-@SerializedName("USD")
+    @SerializedName("USD")
     private Integer uSDollar;
-@SerializedName("ZAR")
+    @SerializedName("ZAR")
     private Float southAfricanRand;
-
-
 }
